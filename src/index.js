@@ -6,7 +6,7 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
-import App from './components/app'
+import App from './components/mobx/app'
 import Users from './components/users'
 import Contact from './components/contact'
 import Notfound from './components/notfound'
