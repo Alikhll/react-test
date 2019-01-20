@@ -14,8 +14,11 @@ class App extends React.Component {
 
     this.addUser = this.addUser.bind(this);
   }
-  addUser() {
+  async addUser() {
+    // let response = await fetch("http://localhost:8080");
+
     userStore.updateCompany("changed");
+
     userStore.addUser();
     this.forceUpdate();
   }
@@ -30,8 +33,7 @@ class App extends React.Component {
           return (<div key={k}>{c.name}</div>)
         })}
 
-        <button onClick={this.addUser}>Add User</button>
-        <MDBBtn color="primary">Primary</MDBBtn>
+        <MDBBtn color="primary" onClick={this.addUser}>Add User</MDBBtn>
       </div>
     )
   }
