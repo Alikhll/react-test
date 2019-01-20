@@ -1,6 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import 'font-awesome/css/font-awesome.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css'; 
+import 'mdbreact/dist/css/mdb.css';
+
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 import App from './components/app'
 import Users from './components/users'
@@ -31,3 +35,5 @@ const routing = (
     </Router>
 )
 ReactDOM.render(routing, document.getElementById('root'))
+
+//material-ui.com
