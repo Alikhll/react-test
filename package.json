@@ -29,7 +29,6 @@
     "fs-extra": "7.0.0",
     "html-webpack-plugin": "4.0.0-alpha.2",
     "identity-obj-proxy": "3.0.0",
-    "jest": "23.6.0",
     "jest-pnp-resolver": "1.0.1",
     "jest-resolve": "23.6.0",
     "mdbreact": "^4.8.7",
@@ -126,6 +125,10 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-decorators": "^7.2.3"
+    "@babel/plugin-proposal-decorators": "^7.2.3",
+    "faker": "^4.1.0",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "puppeteer": "^1.11.0"
   }
 }
